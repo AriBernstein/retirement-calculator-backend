@@ -1,0 +1,8 @@
+version: '0.0.1'
+services:
+  retirement_calculator_backend:
+    build: src
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./src:/usr/src/app
